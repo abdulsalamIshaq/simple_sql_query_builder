@@ -8,9 +8,10 @@ The configuration file is name config.php. the config.php is where you will conf
 to connect to the database 
   - Include function.php in your project folder
   - after including function.php then add this code 
-    > <?php $conn = new sql;?>
+   > $conn = new sql;
+   
 # fetching all rows in a database
-      > <?php 
+      <?php 
       public function fetch_all_rows(){
         conn = new sql;
         $rows = $conn->all('table_name');
